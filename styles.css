@@ -1,0 +1,48 @@
+body {
+
+    font-family: Verdana, sans-serif;
+    /* background-color: blueviolet;
+     background-color: #8A2BE2; */
+    /* background-color: rgb(138, 43, 226); */
+    background-color: rgb(134, 217, 230);
+
+}
+
+article,
+footer {
+    background-color: lightgreen;
+    /* background-color: hsla(260, 30%, 70%, 0.6);
+    background-color: rgba(33, 33, 33, .4);
+    background-color: #3377DD44; */
+
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+
+article {
+    padding: 0 10px;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+
+
+    /* display: flex;
+    gap: 8px; */
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
